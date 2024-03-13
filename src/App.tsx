@@ -9,7 +9,11 @@ function App() {
     <div className="App">
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src="/cheesesaucelogo.jpg" className="logo" alt="Vite logo" />
+          <img
+            src="/cheesesaucelogo.jpg"
+            className="logo"
+            alt="Cheese Sauce logo"
+          />
         </a>
       </div>
       <h1>Cheesesauce Coin</h1>
