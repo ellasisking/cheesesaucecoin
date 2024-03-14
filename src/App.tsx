@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Socials from "./components/Socials";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +19,11 @@ function App() {
       </div>
       <h1>Cheesesauce Coin</h1>
       <div className="card">
-        <p>get your Cheese Sauce on Radix</p>
+        <p>Now serving the cheesiest, gooy-est cheese on Plant Radix!</p>
+        <br />
+        <p>
+          <Socials />
+        </p>
       </div>
     </div>
   );
