@@ -12,10 +12,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #22ff00);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #e100ffaa);
 }
 
 @keyframes logo-spin {
@@ -39,4 +39,22 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 36px;
+
+}
+
+.social-media-icons a {
+  color: #099dd8; /* Change this to the color you want for the icons */
+  
+}
+
+.social-media-icons a:hover {
+  color: blue; /* Change this to the hover color you want for the icons */
+  filter: drop-shadow(0 0 2em #22ff00);
 }
