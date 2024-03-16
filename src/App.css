@@ -58,3 +58,11 @@
   color: blue; /* Change this to the hover color you want for the icons */
   filter: drop-shadow(0 0 2em #22ff00);
 }
+
+.bungee-inline-regular {
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+

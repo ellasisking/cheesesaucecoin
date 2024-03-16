@@ -10,7 +10,7 @@ function App() {
       </div>
 
       <div className="card">
-        <h1>Cheesesauce Coin</h1>
+        <h1 className="bungee-inline-regular">Cheesesauce Coin</h1>
         <Container maxW="2xl" centerContent>
           <Box boxSize="sm">
             <Image src="/cheesesaucelogo.jpg" alt="Cheese Sauce logo" />
